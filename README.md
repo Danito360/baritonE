@@ -1,4 +1,4 @@
-# Baritone
+# BaritonE
 <p align="center">
   <a href="https://github.com/cabaletta/baritone/releases/"><img src="https://img.shields.io/github/downloads/cabaletta/baritone/total.svg" alt="GitHub All Releases"/></a>
 </p>
@@ -50,53 +50,65 @@
   <a href="http://forthebadge.com/"><img src="https://web.archive.org/web/20230604002050/https://forthebadge.com/images/badges/mom-made-pizza-rolls.svg" alt="forthebadge"/></a>
 </p>
 
-A Minecraft pathfinder bot.
+Un bot de búsqueda de caminos para Minecraft.
 
-Baritone is the pathfinding system used in [Impact](https://impactclient.net/) since 4.4. [Here's](https://www.youtube.com/watch?v=StquF69-_wI) a (very old!) video I made showing off what it can do.
+Baritone es el sistema de búsqueda de caminos utilizado en [Impact](https://impactclient.net/) desde la versión 4.4. [Aquí hay](https://www.youtube.com/watch?v=StquF69-_wI) un (muy viejo) video que hice mostrando lo que puede hacer.
 
-[**Baritone Discord Server**](http://discord.gg/s6fRBAUpmr)
+[**Servidor de Discord de Baritone**](http://discord.gg/s6fRBAUpmr)
 
-**Quick download links:**
+**Enlaces de descarga rápida:**
 
-| Forge                                                                                                         | Fabric                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [1.12.2 Forge](https://github.com/cabaletta/baritone/releases/download/v1.2.19/baritone-api-forge-1.2.19.jar) |                                                                                                               |
-| [1.16.5 Forge](https://github.com/cabaletta/baritone/releases/download/v1.6.5/baritone-api-forge-1.6.5.jar)   | [1.16.5 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.6.5/baritone-api-fabric-1.6.5.jar) |
-| [1.17.1 Forge](https://github.com/cabaletta/baritone/releases/download/v1.7.3/baritone-api-forge-1.7.3.jar)   | [1.17.1 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.7.3/baritone-api-fabric-1.7.3.jar) |
-| [1.18.2 Forge](https://github.com/cabaletta/baritone/releases/download/v1.8.6/baritone-api-forge-1.8.6.jar)   | [1.18.2 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.8.6/baritone-api-fabric-1.8.6.jar) |
-| [1.19.2 Forge](https://github.com/cabaletta/baritone/releases/download/v1.9.4/baritone-api-forge-1.9.4.jar)   | [1.19.2 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.9.4/baritone-api-fabric-1.9.4.jar) |
-| [1.19.3 Forge](https://github.com/cabaletta/baritone/releases/download/v1.9.1/baritone-api-forge-1.9.1.jar)   | [1.19.3 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.9.1/baritone-api-fabric-1.9.1.jar) |
-| [1.19.4 Forge](https://github.com/cabaletta/baritone/releases/download/v1.9.3/baritone-api-forge-1.9.3.jar)   | [1.19.4 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.9.3/baritone-api-fabric-1.9.3.jar) |
-| [1.20.1 Forge](https://github.com/cabaletta/baritone/releases/download/v1.10.1/baritone-api-forge-1.10.1.jar)   | [1.20.1 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.10.1/baritone-api-fabric-1.10.1.jar) |
-| [1.20.3 Forge](https://github.com/cabaletta/baritone/releases/download/v1.10.2/baritone-api-forge-1.10.2.jar)   | [1.20.3 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.10.2/baritone-api-fabric-1.10.2.jar) |
-| [1.20.4 Forge](https://github.com/cabaletta/baritone/releases/download/v1.10.2/baritone-api-forge-1.10.2.jar)   | [1.20.4 Fabric](https://github.com/cabaletta/baritone/releases/download/v1.10.2/baritone-api-fabric-1.10.2.jar) |
+Descarga desde el apartado "Releases" la versión optimizada.
 
-**Message for 2b2t players looking for 1.19/1.20 Baritone** If you like, please try the beta for Baritone Elytra for 2b2t, find it in #announcements of [the Baritone discord](http://discord.gg/s6fRBAUpmr). It supports 1.19.4 and 1.20.1, Forge or Fabric. If you have to see it to believe it, watch [this YouTube video](https://youtu.be/NnSlQi-68eQ).
+### Ejemplos de Uso
 
-**How to immediately get started:** Type `#goto 1000 500` in chat to go to x=1000 z=500. Type `#mine diamond_ore` to mine diamond ore. Type `#stop` to stop. For more, read [the usage page](USAGE.md) and/or watch this [tutorial playlist](https://www.youtube.com/playlist?list=PLnwnJ1qsS7CoQl9Si-RTluuzCo_4Oulpa). Also try `#elytra` for Elytra flying in the Nether using fireworks.
+Para iniciar la búsqueda de caminos, puedes usar el siguiente comando:
+```
+#goto [coordenadas o nombre del bloque]
+```
 
-For other versions of Minecraft or more complicated situations or for development, see [Installation & setup](SETUP.md). Also consider just installing [Impact](https://impactclient.net/), which comes with Baritone and is easier to install than wrangling with version JSONs and zips. For 1.16.5, [click here](https://www.youtube.com/watch?v=_4eVJ9Qz2J8) and see description. Once Baritone is installed, look [here](USAGE.md) for instructions on how to use it. There's a [showcase video](https://youtu.be/CZkLXWo4Fg4) made by @Adovin#6313 on Baritone which I recommend.
+Para pausar o reanudar la búsqueda de caminos, utiliza:
+```
+#pause
+#resume
+```
 
-This project is an updated version of [MineBot](https://github.com/leijurv/MineBot/),
-the original version of the bot for Minecraft 1.8.9, rebuilt for 1.12.2 onwards. Baritone focuses on reliability and particularly performance (it's over [30x faster](https://github.com/cabaletta/baritone/pull/180#issuecomment-423822928) than MineBot at calculating paths).
+Para detener la búsqueda de caminos, usa:
+```
+#stop
+```
 
-Have committed at least once a day from Aug 1, 2018, to Aug 1, 2019.
+### Requisitos
+- Minecraft Java Edition
+- Versión de Minecraft soportada: 1.12.2 - 1.20.1
 
-1Leijurv3DWTrGAfmmiTphjhXLvQiHg7K2
+### Instalación
+1. Descarga el archivo correspondiente a tu versión de Minecraft.
+2. Coloca el archivo `.jar` en la carpeta `mods` de tu instalación de Minecraft.
+3. Inicia Minecraft con Forge o Fabric.
 
-# Getting Started
+### Licencia
+Baritone está licenciado bajo la LGPL-3.0 con una excepción de anime.
 
-Here are some links to help to get started:
+Para más detalles, visita el [repositorio en GitHub](https://github.com/cabaletta/baritone).
 
-- [Features](FEATURES.md)
+### Contribuciones
+Las contribuciones son bienvenidas. Por favor, revisa la guía de contribución en el repositorio.
 
-- [Installation & setup](SETUP.md)
+### Código de Conducta
+Este proyecto sigue un [código de conducta](https://github.com/cabaletta/baritone/blob/master/CODE_OF_CONDUCT.md) para fomentar un ambiente inclusivo y respetuoso.
 
-- [API Javadocs](https://baritone.leijurv.com/)
+### Enlaces Útiles
+- [Documentación](https://github.com/cabaletta/baritone/wiki)
+- [Lista de Comandos](https://github.com/cabaletta/baritone/blob/master/COMMANDS.md)
+- [Guía de Configuración](https://github.com/cabaletta/baritone/blob/master/SETUP.md)
+- [FAQ](https://github.com/cabaletta/baritone/blob/master/FAQ.md)
 
-- [Settings](https://baritone.leijurv.com/baritone/api/Settings.html#field.detail)
+### Contacto
+Para cualquier duda o comentario, únete a nuestro [servidor de Discord](http://discord.gg/s6fRBAUpmr).
 
-- [Usage (chat control)](USAGE.md)
+---
+
 
 ## Stars over time
 
