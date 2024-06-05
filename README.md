@@ -50,7 +50,7 @@
   <a href="http://forthebadge.com/"><img src="https://web.archive.org/web/20230604002050/https://forthebadge.com/images/badges/mom-made-pizza-rolls.svg" alt="forthebadge"/></a>
 </p>
 
-Un bot de búsqueda de caminos para Minecraft.
+Una IA de que busca caminos para llegar a cualquier cosa en Minecraft. Ahora traducido al español.
 
 Baritone es el sistema de búsqueda de caminos utilizado en [Impact](https://impactclient.net/) desde la versión 4.4. [Aquí hay](https://www.youtube.com/watch?v=StquF69-_wI) un (muy viejo) video que hice mostrando lo que puede hacer.
 
