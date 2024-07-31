@@ -1,5 +1,5 @@
 # BaritonE
-##Nunca llegué a tener tiempo para comenzar el proyecto, disfruta de que almenos el README está traducido de momento
+## Nunca llegué a tener tiempo para comenzar el proyecto, disfruta de que almenos el README está traducido de momento
 <p align="center">
   <a href="https://github.com/cabaletta/baritone/releases/"><img src="https://img.shields.io/github/downloads/cabaletta/baritone/total.svg" alt="GitHub All Releases"/></a>
 </p>
